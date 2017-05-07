@@ -1,0 +1,15 @@
+---
+title: "Statistical mechanics of biodiversity"
+author: "A. J. Rominger"
+date: "`r format(Sys.time(), '%d %B %Y')`"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Cars in parking lots look a lot like species in communities when viewed through the lens of macroecological metrics.  This begs the question, how much of the patterns we see in biodiveristy result from the mechanims we have presumed for the past century, and how much from the probabilistic constraints inevitable in large aggregations of *things*, whatever those things may be? This question makes relevant efforts to inject principles and approaches from statistical mechanics into the study of biodiversity. Doing so well will lead to the chance to rigorously say whether a pattern we see is meaningful from the perspective of detailed mechanism, or is in fact likely to be the result of statistical mechanics. If the answer is, likely to be from statistical mechanics, we have to ask whether we think it is the wrong pattern, or if a greater proportion of the dynamics of life have more to do with statistics than with life.
+
+Invoking unneccesary mechanism is rampant in ecology, leading to a chicken little (or crying wolf) effect. For example, while studies have invoked many mechanisms, from micro- to macro-scopic in scale, to explain patterns in networks of species interactions, a simple study of frugivorous birds found that nothing more than chance was needed.  This indicates the potential for confirmation bias---studies that set out to confirm mechanisms do, those that set out to falsify them also do. However, the falsifiers might have the stronger case when it comes to networks. Now that type I and II error rates have been well studied for permutational matrix null models, we find ourselves concluding that pervasive patterns previously asscribed to detailed mechanisms are pervasive because they are independent of those mechanims, i.e., random.
+
